@@ -1,0 +1,10 @@
+POST http://127.0.0.1:8000/api/save_contact
+content-type: application/json
+
+{
+    "name": "test2",
+    "email": "test@gmail.com",
+    "bio" : "Hello World!",
+    "designation": "Medellin",
+    "contact_no":"45454646"
+}
